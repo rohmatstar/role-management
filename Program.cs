@@ -266,6 +266,27 @@ public class Program
         Console.ReadLine();
     }
 
+    private string ReadPassword()
+    {
+        string password = "";
+        ConsoleKeyInfo key;
+
+        do
+        {
+            key = Console.ReadKey(true);
+
+            if (key.Key != ConsoleKey.Enter)
+            {
+                password += "*";
+                Console.Write("*");
+            }
+        }
+        while (key.Key != ConsoleKey.Enter);
+
+        //Console.WriteLine();
+        return password;
+    }
+
     public static void Login()
     {
         Console.Clear();
@@ -274,7 +295,27 @@ public class Program
         string username = Console.ReadLine();
 
         Console.Write("PASSWORD: ");
-        string password = Console.ReadLine();
+
+        string password = "";
+        ConsoleKeyInfo key;
+
+        do
+        {
+            key = Console.ReadKey(true);
+
+            if (key.Key != ConsoleKey.Enter && key.Key != ConsoleKey.Backspace)
+            {
+                password += key.KeyChar.ToString();
+                Console.Write("*");
+            }
+            /*if (key.Key == ConsoleKey.Backspace)
+            {
+                password = password.Substring(0, password.Length - 1);
+                Console.Write(new string('*', password.Length));
+            }*/
+        }
+        while (key.Key != ConsoleKey.Enter);
+
         if (userManager.LoginUser(username, password))
         {
             if (userManager.GetRole(username, password) == 0)
@@ -318,7 +359,7 @@ public class Program
         }
         else
         {
-            Console.WriteLine("MESSAGE : Username atau Password Tidak Ditemukan");
+            Console.WriteLine("\nMESSAGE : Username atau Password Tidak Ditemukan");
             Console.ReadLine();
             Login();
         }

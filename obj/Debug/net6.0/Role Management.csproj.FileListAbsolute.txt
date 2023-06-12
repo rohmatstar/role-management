@@ -16,3 +16,21 @@ D:\-- METRODATA --\MCC\OOP\Role Management\Role Management\obj\Debug\net6.0\ref\
 D:\-- METRODATA --\MCC\OOP\Role Management\Role Management\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
 D:\-- METRODATA --\MCC\OOP\Role Management\Role Management\bin\Debug\net6.0\System.IO.Packaging.dll
 D:\-- METRODATA --\MCC\OOP\Role Management\Role Management\obj\Debug\net6.0\Role Management.csproj.CopyComplete
+D:\-- METRODATA --\MCC\Program\role-management\obj\Debug\net6.0\Role Management.csproj.AssemblyReference.cache
+D:\-- METRODATA --\MCC\Program\role-management\obj\Debug\net6.0\Role Management.GeneratedMSBuildEditorConfig.editorconfig
+D:\-- METRODATA --\MCC\Program\role-management\obj\Debug\net6.0\Role Management.AssemblyInfoInputs.cache
+D:\-- METRODATA --\MCC\Program\role-management\obj\Debug\net6.0\Role Management.AssemblyInfo.cs
+D:\-- METRODATA --\MCC\Program\role-management\obj\Debug\net6.0\Role Management.csproj.CoreCompileInputs.cache
+D:\-- METRODATA --\MCC\Program\role-management\obj\Debug\net6.0\Role Management.dll
+D:\-- METRODATA --\MCC\Program\role-management\obj\Debug\net6.0\refint\Role Management.dll
+D:\-- METRODATA --\MCC\Program\role-management\obj\Debug\net6.0\Role Management.pdb
+D:\-- METRODATA --\MCC\Program\role-management\bin\Debug\net6.0\Role Management.exe
+D:\-- METRODATA --\MCC\Program\role-management\bin\Debug\net6.0\Role Management.deps.json
+D:\-- METRODATA --\MCC\Program\role-management\bin\Debug\net6.0\Role Management.runtimeconfig.json
+D:\-- METRODATA --\MCC\Program\role-management\bin\Debug\net6.0\Role Management.dll
+D:\-- METRODATA --\MCC\Program\role-management\bin\Debug\net6.0\Role Management.pdb
+D:\-- METRODATA --\MCC\Program\role-management\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+D:\-- METRODATA --\MCC\Program\role-management\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\-- METRODATA --\MCC\Program\role-management\obj\Debug\net6.0\Role Management.csproj.CopyComplete
+D:\-- METRODATA --\MCC\Program\role-management\obj\Debug\net6.0\Role Management.genruntimeconfig.cache
+D:\-- METRODATA --\MCC\Program\role-management\obj\Debug\net6.0\ref\Role Management.dll
