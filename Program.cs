@@ -308,11 +308,11 @@ public class Program
                 password += key.KeyChar.ToString();
                 Console.Write("*");
             }
-            /*if (key.Key == ConsoleKey.Backspace)
+            if (key.Key == ConsoleKey.Backspace)
             {
                 password = password.Substring(0, password.Length - 1);
-                Console.Write(new string('*', password.Length));
-            }*/
+                Console.Write("\b \b");
+            }
         }
         while (key.Key != ConsoleKey.Enter);
 
