@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QhRuSdbILLJifLuM/S/STcRg0dOiCswpQ78IC07VdjKHu0TSrlmTp51SxWqUhU6HKZmLEbUi7QuYEMthIBq+1w==",
+  "success": true,
+  "projectFilePath": "D:\\-- METRODATA --\\MCC\\OOP\\Role Management\\Role Management\\Role Management.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ahn Yu Jin\\.nuget\\packages\\documentformat.openxml\\2.20.0\\documentformat.openxml.2.20.0.nupkg.sha512",
+    "C:\\Users\\Ahn Yu Jin\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
