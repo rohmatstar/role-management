@@ -1,14 +1,19 @@
 ﻿using DocumentFormat.OpenXml.Wordprocessing;
 using Role_Management;
 using System;
+using System.Data;
+using System.Data.SqlClient;
+using System.Transactions;
 
 public class Program
 {
+
     private static UserManager userManager;
     private static EvenOdd evenOdd;
 
     public static void Main(string[] args)
     {
+        
         userManager = new UserManager();
         userManager.CreateUser("System", "Admin", "sysadmin", "adMIN123/", 0);
         userManager.CreateUser("User", "Local", "user", "usER123/", 1);
@@ -266,30 +271,10 @@ public class Program
         Console.ReadLine();
     }
 
-    private string ReadPassword()
-    {
-        string password = "";
-        ConsoleKeyInfo key;
-
-        do
-        {
-            key = Console.ReadKey(true);
-
-            if (key.Key != ConsoleKey.Enter)
-            {
-                password += "*";
-                Console.Write("*");
-            }
-        }
-        while (key.Key != ConsoleKey.Enter);
-
-        //Console.WriteLine();
-        return password;
-    }
 
     public static void Login()
     {
-        Console.Clear();
+        //Console.Clear();
         Console.WriteLine("==LOGIN==");
         Console.Write("USERNAME: ");
         string username = Console.ReadLine();

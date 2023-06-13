@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\-- METRODATA --\\MCC\\OOP\\Role Management\\Role Management\\Role Management.csproj": {}
+    "D:\\-- METRODATA --\\MCC\\Program\\role-management\\Role Management.csproj": {}
   },
   "projects": {
-    "D:\\-- METRODATA --\\MCC\\OOP\\Role Management\\Role Management\\Role Management.csproj": {
+    "D:\\-- METRODATA --\\MCC\\Program\\role-management\\Role Management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\-- METRODATA --\\MCC\\OOP\\Role Management\\Role Management\\Role Management.csproj",
+        "projectUniqueName": "D:\\-- METRODATA --\\MCC\\Program\\role-management\\Role Management.csproj",
         "projectName": "Role Management",
-        "projectPath": "D:\\-- METRODATA --\\MCC\\OOP\\Role Management\\Role Management\\Role Management.csproj",
+        "projectPath": "D:\\-- METRODATA --\\MCC\\Program\\role-management\\Role Management.csproj",
         "packagesPath": "C:\\Users\\Ahn Yu Jin\\.nuget\\packages\\",
-        "outputPath": "D:\\-- METRODATA --\\MCC\\OOP\\Role Management\\Role Management\\obj\\",
+        "outputPath": "D:\\-- METRODATA --\\MCC\\Program\\role-management\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ahn Yu Jin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "DocumentFormat.OpenXml": {
               "target": "Package",
               "version": "[2.20.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
